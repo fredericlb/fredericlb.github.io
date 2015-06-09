@@ -1,0 +1,91 @@
+{
+    "p" : {
+        "acm" : {
+            "tags" : "iOS, CRM, DataViz",
+            "title" : "Altis CRM Mobile",
+            "content" : [
+                "Altis CRM Mobile est une application iOS permettant de synchroniser, visualiser ",
+                "et modifier des données provenant de la CRM vTiger. ",
+                "Les points principaux de son développement sont l'ergonomie et l'affichage",
+                "de statistiques pertinentes pour une utilisation nomade de la CRM."
+            ],
+            "link0" : "Site Internet"
+        },
+        "githubdc" : {
+            "tags" : "WebGL, DataViz",
+            "title" : "Github Data Challenge",
+            "content" : [
+                "Une démo développée avec THREE.js et CANNON.js qui illustre les statistiques délivrées par Github",
+                "dans une scène 3D et en se basant sur des interactions physiques."
+            ],
+            "link0" : "Démo"
+        },
+        "docker" : {
+            "tags": "DevTools",
+            "title" : "Docker",
+            "content" : [
+                "Amateur de la mouvance DevOps, j'ai développé une image Docker permettant de ",
+                "mettre en place facilement Facebook Phabricator en assurant la persistance des ",
+                "données sensibles et la disponibilité du service au premier lancement."
+            ]
+        },
+        "diapopis" : {
+            "tags": "NodeJS",
+            "title" : "Plides",
+            "content" : [
+                "Ce petit projet a été créé afin d'aider une boutique qui souhaitait avoir ",
+                "un diaporama de vidéos en vitrine à bas coût. Démarrant sur un Raspberry PI, ",
+                "il affiche automatiquement les vidéos disponibles dans un dossier donné, ",
+                "en conservant l'accélération matérielle de l'appareil. ",
+                "Le dossier peut-être mis à jour en insérant dans le Raspberry PI une clé USB avec ",
+                "des données valides, ce qui signifie qu'une fois que le système est en place,",
+                "il n'est plus nécessaire de le débrancher ou de le redémarrer."]
+        },
+        "cl" : {
+            "tags": "WebCL, GPU, JS",
+            "title" : "Common WebCL",
+            "content" : [
+                "WebCL est un standard en cours de conception par le groupe Khronos",
+                "qui permettra de faire du calcul parallèle intensif dans un navigateur web.",
+                "Les spécifications sont encore à l'état de brouillon et de multiples implémentations",
+                "provenant de plusieurs organismes sont disponibles.",
+                "Le but de cette librairie est de mettre à disposition un wrapper aussi proche que ",
+                "possible des brouillons de spécifications, pour toutes les implémentations disponibles.",
+
+                "Cette librairie permet aussi de lancer des tests sur l'implémentation du navigateur ",
+                "afin de rapidement détecter des bugs existants."
+            ]
+        },
+        "osgl" : {
+            "tags": "WebGL, SIG, JS",
+            "title": "OpenScalesGL",
+            "content": [
+                "OpenScalesGL est ma première rencontre avec WebGL. C'est une application web permettant ",
+                "de visualiser en 3D des flux géographiques standards. Disponible aussi sur mobile, ",
+                "cette application a pour principaux objectifs une grande fluidité et une modularité ",
+                "suffisante pour permettre son intégration dans un autre contexte facilement."
+            ]
+        },
+        "pp" : {
+            "tags": "WebCL, WebGL",
+            "title": "Partying Particles",
+            "content": [
+                "Partying Particles est une démonstration simple et amusante des capacités de WebCL.",
+                "WebCL permettant des interactions avec WebGL, ce petit jeu permet d'interagir avec la physique d'un flux de particules."
+            ]
+        }
+    },
+
+    "info" : {
+        "l" : {
+            "title" : "Mes centres d'intêret",
+            "content" : {
+                "c0" : "Création d'interfaces web riches, ergonomiques et fluides",
+                "c1" : "Création d'interfaces 3D ou hybrides",
+                "c2" : "Les différentes méthodes de visualisation de données",
+                "c3" : "Les problématiques d'optimisations et de parallélisation massive",
+                "c4" : "L'évolution des langages de programmation (programmation réactive, fonctionnelle, FRP...)"
+            }
+        }
+    }
+}

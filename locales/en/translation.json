@@ -1,0 +1,97 @@
+{
+    "p" : {
+        "acm" : {
+            "tags" : "iOS, CRM, DataViz",
+            "title" : "Altis Mobile CRM",
+            "content" : [
+                "Altis Mobile CRM is an iOS app which can sync, view and edit data coming from vTiger CRM.",
+                "It can read and write content in offline mode and provides various statistics ",
+                "for a nomadic usage of the CRM."
+            ],
+            "link0" : "Website"
+        },
+        "githubdc" : {
+            "tags" : "WebGL, DataViz",
+            "title" : "Github Data Challenge",
+            "content" : [
+                "A demo developed with THREE.js and CANNON.js that gives life ",
+                "to statistics delivered by Github,",
+                "by displaying them in a 3D scene et using physics interactions"
+            ],
+            "link0" : "Live demo"
+        },
+        "docker" : {
+            "tags": "DevTools",
+            "title" : "Docker",
+            "content" : [
+                "As a devops enthusiast, I developed a docker image to provide ",
+                "an out of the box Facebook Phabricator.",
+                "This image is also meant to give easy access to sensible data in Phabricator",
+                "in order to put them in a persistant place"
+            ]
+        },
+        "diapopis" : {
+            "tags": "",
+            "title" : "Plides",
+            "content" : [
+                "This little project was created to help a shop into having a cheap ",
+                "system to display slides on a TV. It runs on a Raspberry PI and it ",
+                "automatically displays videos available in a given folder, ",
+                "using some cheats to keep hardware acceleration running. It also ",
+                "updates the main folder by doing an update whenever an USB key with valid ",
+                "data is plugged in, meaning that once the system is set up, you don't need ",
+                "to reboot it for updates."
+            ]
+        },
+
+        "cl" : {
+            "tags": "WebCL, GPU, JS",
+            "title" : "Common WebCL",
+            "content" : [
+                "WebCL is an upcoming standard currently in draft state at the Khronos Group.",
+                "It will provide the ability to do massive parallel computing directly in the",
+                "browser, by implementing the desktop standard OpenCL.",
+                "As it is still a draft, many early implementations are currently being written, with",
+                "their own API.",
+                "This library is a wrapper for these implementations that give them a common API,",
+                "being as close as possible to the current Khronos draft.",
+
+                "It also contains many tests to check for missing features or bugs in ",
+                "your currently running WebCL implementation."
+
+            ]
+        },
+
+        "osgl" : {
+            "tags": "WebGL, SIG, JS",
+            "title": "OpenScalesGL",
+            "content": [
+                "OpenScalesGL is the first time I started working using WebGL. It's a web app that displays ",
+                "3D geographic data based on open web standards. Meant to be also available on mobile",
+                "this app aims at being as smooth as possible and at being modular enough to allow its",
+                "integration in any other context easily"
+            ]
+        },
+        "pp" : {
+            "tags": "WebCL, WebGL",
+            "title": "Partying Particles",
+            "content": [
+                "Partying Particles is a simple and entertaining demo of what WebCL can do",
+                "As WebCL provides interactions with WebGL data, this little game allows the user to interact with a particle stream"
+            ]
+        }
+    },
+
+    "info" : {
+        "l" : {
+            "title" : "What I like about computer science",
+            "content" : {
+                "c0" : "Creating rich web UIs, and making them smooth and usable",
+                "c1" : "Creating 3D or hybrid 2D/3D interfaces",
+                "c2" : "Everything about data visualisation",
+                "c3" : "Solving optimisation and massive parallel computations issues",
+                "c4" : "Evolution of computer languages (reactive, functional, FRP...)"
+            }
+        }
+    }
+}

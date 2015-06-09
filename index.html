@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>Portfolio @fredericlb</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href='http://fonts.googleapis.com/css?family=Caudex' rel='stylesheet' type='text/css'>
+    <link href="assets/fontello.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="bower_components/i18next/i18next.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+    <style type="text/css">
+        body {
+            background-color: #DEDEDE;
+            font-family: 'Caudex', serif;
+        }
+
+        .item{
+            width: 300px;
+            background:white;
+            padding: 10px;
+            margin-bottom: 30px;
+            border-top: 3px solid #ff7500;
+            box-shadow: #CDCDCD 2px 3px;
+        }
+
+        p { text-align: justify; }
+
+        .tag { font-style: italic; color: #CDCDCD; }
+
+        div.head {
+            width: 300px;
+            padding:10px;
+            margin-bottom: 80px;
+            background: linear-gradient(to bottom, #FFFFFF, #DEDEDE);
+            height:230px;
+            margin-top: 10px;
+        }
+        .head ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        li i {
+            margin-right: 10px;
+        }
+        li a {
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+            text-decoration: none;
+            color: #333;
+            font-size: 12px;
+        }
+
+        .tags {
+            text-align: right;
+            font-variant: small-caps;
+            color: #999;
+        }
+
+        .lang {
+            float: right;
+            width: 40px;
+            color: #999;
+            text-align:right;
+        }
+
+        .lang div {
+            cursor:pointer;
+        }
+
+        .lang div:hover {
+            color: #FF9900;
+        }
+
+        .overlay {
+            z-index: 1000;
+            background-color: #DEDEDE;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .logo {
+            border-bottom: 1px solid #dedede;
+        }
+
+        h1 {
+            font-size: 14pt;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <div class="head">
+            <div class="lang">
+                <div class="lang lang-fr">FRA</div>
+                <div class="lang lang-en">ENG</div>
+            </div>
+
+            <img src="assets/logo.png" class="logo"/>
+            <h1>Le cabinet des curiosité de Frédéric Langlade-Bellone<h1>
+            <ul>
+                <li><i class="icon-github-circled"></i><a href="http://www.github.com/fredericlb">@fredericlb</a>
+                </li>
+                <li><i class="icon-linkedin"></i><a href="https://www.linkedin.com/pub/fr%C3%A9d%C3%A9ric-langlade/6b/736/587">Frédéric Langlade</a>
+                </li>
+                <li><i class="icon-twitter"></i><a href="http://www.twitter.com/fredericlb">@fredericlb</a>
+                </li>
+                <li><i class="icon-mail"></i><a href="mailto:fred@parapluie.org">fred@parapluie.org</a> </li>
+            </ul>
+        </div>
+        <div class="item">
+            <div class="tags" data-i18n="p.acm.tags"></div>
+            <h2 data-i18n="p.acm.title"></h2>
+            <img src="assets/dashboard.png" width="300" height="225"/>
+            <p data-i18n="p.acm.content"></p>
+        </div>
+        <div class="item">
+            <div class="tags" data-i18n="p.githubdc.tags"></div>
+            <h2 data-i18n="p.githubdc.title"></h2>
+            <img src="assets/3D.gif"  width="300" height="153"/>
+            <p data-i18n="p.githubdc.content"></p>
+            <div class="links"><a href="http://githubdata-parapluie.rhcloud.com/" data-i18n="p.githubdc.link0">Live demo</a></div>
+        </div>
+        <div class="item">
+            <div class="tags" data-i18n="p.diapospi.tags"></div>
+            <h2 data-i18n="p.diapopis.title"></h2>
+            <p data-i18n="p.diapopis.content"></p>
+        </div>
+        <div class="item">
+            <div class="tags" data-i18n="p.cl.tags"></div>
+            <h2 data-i18n="p.cl.title"></h2>
+            <img src="assets/clcommons.png" width="300" height="70"/>
+            <p data-i18n="p.cl.content"></p>
+        </div>
+        <div class="item">
+            <div class="tags" data-i18n="p.osgl.tags"></div>
+            <h2 data-i18n="p.osgl.title"></h2>
+            <iframe width="300" height="169" src="//www.youtube.com/embed/kV_oHYGyCj0?rel=0" frameborder="0" allowfullscreen></iframe>
+            <p data-i18n="p.osgl.content"></p>
+        </div>
+        <div class="item">
+            <div class="tags" data-i18n="p.pp.tags"></div>
+            <h2 data-i18n="p.pp.title"></h2>
+            <iframe width="300" height="169" src="//www.youtube.com/embed/uSgOzh2XpN8?rel=0" frameborder="0" allowfullscreen></iframe>
+            <p data-i18n="p.pp.content"></p>
+        </div>
+
+        <div class="item info">
+            <h2 data-i18n="info.l.title"></h2>
+            <p>
+                <ul>
+                    <li data-i18n="info.l.content.c0"></li>
+                    <li data-i18n="info.l.content.c1"></li>
+                    <li data-i18n="info.l.content.c2"></li>
+                    <li data-i18n="info.l.content.c3"></li>
+                    <li data-i18n="info.l.content.c4"></li>
+                </ul>
+            </p>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        // dirty but i18next ts descriptor is false
+        window.i18next = i18n;
+    </script>
+</body>
+</html>
