@@ -14,7 +14,7 @@
 
     <style type="text/css">
         body {
-            background-color: #DEDEDE;
+            background-color: #efefef;
             font-family: 'Caudex', serif;
         }
 
@@ -33,11 +33,16 @@
 
         div.head {
             width: 300px;
-            padding:10px;
-            margin-bottom: 80px;
-            background: linear-gradient(to bottom, #FFFFFF, #DEDEDE);
+            margin-bottom: 100px;
             height:230px;
             margin-top: 10px;
+        }
+
+        div.head-content {
+            background: linear-gradient(to bottom, #FFFFFF, #DEDEDE);
+            border-top: 1px solid #efefef;
+            padding:10px;
+            width: 100%;
         }
         .head ul {
             list-style-type: none;
@@ -67,6 +72,7 @@
             width: 40px;
             color: #999;
             text-align:right;
+            margin-top: 1px;
         }
 
         .lang div {
@@ -88,33 +94,39 @@
         }
 
         .logo {
-            border-bottom: 1px solid #dedede;
+            border-bottom: 1px solid #efefef;
+            position:relative;
+            top:6px;
         }
 
         h1 {
             font-size: 14pt;
+            margin-top: 0;
         }
     </style>
 </head>
 <body>
     <div id="root">
         <div class="head">
-            <div class="lang">
-                <div class="lang lang-fr">FRA</div>
-                <div class="lang lang-en">ENG</div>
-            </div>
 
             <img src="assets/logo.png" class="logo"/>
-            <h1>Le cabinet des curiosité de Frédéric Langlade-Bellone<h1>
-            <ul>
-                <li><i class="icon-github-circled"></i><a href="http://www.github.com/fredericlb">@fredericlb</a>
-                </li>
-                <li><i class="icon-linkedin"></i><a href="https://www.linkedin.com/pub/fr%C3%A9d%C3%A9ric-langlade/6b/736/587">Frédéric Langlade</a>
-                </li>
-                <li><i class="icon-twitter"></i><a href="http://www.twitter.com/fredericlb">@fredericlb</a>
-                </li>
-                <li><i class="icon-mail"></i><a href="mailto:fred@parapluie.org">fred@parapluie.org</a> </li>
-            </ul>
+
+            <div class="head-content">
+                <div class="lang">
+                    <div class="lang lang-fr">FRA</div>
+                    <div class="lang lang-en">ENG</div>
+                </div>
+                <h1>Le cabinet des curiosité de Frédéric Langlade-Bellone</h1>
+                <ul>
+                    <li><i class="icon-github-circled"></i><a href="http://www.github.com/fredericlb">@fredericlb</a>
+                    </li>
+                    <li><i class="icon-linkedin"></i><a href="https://www.linkedin.com/pub/fr%C3%A9d%C3%A9ric-langlade/6b/736/587">Frédéric Langlade</a>
+                    </li>
+                    <li><i class="icon-twitter"></i><a href="http://www.twitter.com/fredericlb">@fredericlb</a>
+                    </li>
+                    <li><i class="icon-mail"></i><a href="mailto:fred@parapluie.org">fred@parapluie.org</a> </li>
+                </ul>
+            </div>
         </div>
         <div class="item">
             <div class="tags" data-i18n="p.acm.tags"></div>
